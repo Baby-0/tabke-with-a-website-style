@@ -1,0 +1,104 @@
+body{
+    background-color: white;
+    margin: 0px;
+    font-family: "poppins";
+    font-size: 14px;
+}
+#header{
+    background-color: LightSeaGreen;
+    height: 100px;
+
+    
+}
+#header h2{
+    color: white;
+    margin: 20px;
+    display: inline;
+    position: relative;
+    top: 20%;
+    left: 5px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#header ul{
+    text-align: right;
+    text-size-adjust: none;
+    position: relative;
+    bottom:25pX;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+   }
+#header ul li {
+    display: inline;
+    position: relative;
+    
+}
+#header ul li a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main {
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+h3 {
+    color: white;
+    font-family: Arial; 
+}
+.images {
+    float: none;
+    padding-left: 5px;
+    width:100px ;
+}
+.main1 {
+    padding: 1px;
+    width: 80%;;
+    font-size: 110%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.27);
+    position: relative;
+    left:10%;
+    top: 60px;
+    right: 10%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+#footer{
+    background-color: #20B2AA;
+    height: 200px;
+    color: white;
+    text-align: center;
+    text-align-last:none;
+    font-size: 90%;
+    
+   
+}
+#footer ul {
+    
+    background-color: #20B2AA;
+    height: 100px; width: 300px;
+    color: white;
+    text-align: left;
+    margin: 25px;
+    font-size: 50%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
